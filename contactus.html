@@ -27,7 +27,6 @@
     <link rel="stylesheet" href="css/style.css" />
     <title>Ristorante Con Fusion</title>
   </head>
-
   <body>
     <nav class="navbar navbar-dark navbar-expand-sm  fixed-top">
       <div class="container">
@@ -39,7 +38,7 @@
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <a href="#" class="navbar-brand mr-auto">Ristorante Con Fusion</a>
+        <a href="#" class="navbar-brand mr-auto"> Ristorante Con Fusion </a>
         <div class="collapse navbar-collapse" id="Navbar">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item">
@@ -141,79 +140,197 @@
           <h3>Send us your Feedback</h3>
         </div>
         <div class="col-12 col-md-9">
-          Form goes here
+          <form>
+            <div class="form-group row">
+              <label for="firstname" class="col-md-2 col-form-label"
+                >First Name</label
+              >
+              <div class="col-md-10">
+                <input
+                  type="text"
+                  class="form-control"
+                  id="firstname"
+                  name="firstname"
+                  placeholder="First Name"
+                />
+              </div>
+            </div>
+            <div class="form-group row">
+              <label for="lastname" class="col-md-2 col-form-label"
+                >Last Name</label
+              >
+              <div class="col-md-10">
+                <input
+                  type="text"
+                  class="form-control"
+                  id="lastname"
+                  name="lastname"
+                  placeholder="Last Name"
+                />
+              </div>
+            </div>
+            <div class="form-group row">
+              <label for="telnum" class=" col-12 col-md-2 col-form-label"
+                >Contact Tel</label
+              >
+              <div class="col-5 col-md-3">
+                <input
+                  type="tel"
+                  class="form-control"
+                  id="areacode"
+                  name="areacode"
+                  placeholder="Area code"
+                />
+              </div>
+              <div class="col-7 col-md-7">
+                <input
+                  type="tel"
+                  class="form-control"
+                  id="telnum"
+                  name="telnum"
+                  placeholder="Tel. number"
+                />
+              </div>
+            </div>
+            <div class="form-group row">
+              <label for="emailid" class="col-md-2 col-form-label">Email</label>
+              <div class="col-md-10">
+                <input
+                  type="Email"
+                  class="form-control"
+                  id="emailid"
+                  name="emailid"
+                  placeholder="Email"
+                />
+              </div>
+            </div>
+            <div class="form-group row">
+              <div class="col-md-6 offset-md-2">
+                <div class="form-check">
+                  <input
+                    type="checkbox"
+                    class="form-check-input"
+                    name="approve"
+                    id="approve"
+                    value=""
+                  />
+                  <label for="approve" class="form-check-label"
+                    ><strong>May we contact you?</strong></label
+                  >
+                </div>
+              </div>
+              <div class="col-md-3 offset-md-1">
+                <select name="" id="" class="form-control">
+                  <option value="">Tel</option>
+                  <option value="">Email</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-group row">
+              <label for="feedback" class="col-md-2 col-form-label"
+                >Your Feedback</label
+              >
+              <div class="col-md-10">
+                <textarea
+                  class="form-control"
+                  id="feedback"
+                  name="feedback"
+                  rows="12"
+                ></textarea>
+              </div>
+            </div>
+            <div class="form-group row">
+              <div class="offset-md-2 col-md-10">
+                <button type="submit" class="btn btn-primary">
+                  Send Feedback
+                </button>
+              </div>
+            </div>
+          </form>
+          <div class="col-12 col-md"></div>
         </div>
-        <div class="col-12 col-md"></div>
       </div>
-    </div>
 
-    <footer class="footer">
-      <div class="container">
-        <div class="row">
-          <div class="col-4 offset-1 col-sm-2">
-            <h5>Links</h5>
-            <ul class="list-unstyled">
-              <li><a href="#">Home</a></li>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Menu</a></li>
-              <li><a href="#">Contact</a></li>
-            </ul>
+      <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-4 offset-1 col-sm-2">
+              <h5>Links</h5>
+              <ul class="list-unstyled">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">Contact</a></li>
+              </ul>
+            </div>
+            <div class="col-7 col-sm-5">
+              <h5>Our Address</h5>
+              <address>
+                121, Clear Water Bay Road<br />
+                Clear Water Bay, Kowloon<br />
+                HONG KONG<br />
+                <i class="fa fa-phone fa-lg"></i>: +852 1234 5678<br />
+                <i class="fa fa-fax fa-lg"></i>: +852 8765 4321<br />
+                <i class="fa fa-envelope fa-lg"></i>:
+                <a href="mailto:confusion@food.net">confusion@food.net</a>
+              </address>
+            </div>
+            <div class="col-12 col-sm-4 align-self-center">
+              <div class="text-center">
+                <a
+                  class="btn btn-social-icon btn-google"
+                  href="http://google.com/+"
+                  ><i class="fa fa-google-plus"></i
+                ></a>
+                <a
+                  class="btn btn-social-icon btn-facebook"
+                  href="http://www.facebook.com/profile.php?id="
+                  ><i class="fa fa-facebook"></i
+                ></a>
+                <a
+                  class="btn btn-social-icon btn-linkedin"
+                  href="http://www.linkedin.com/in/"
+                  ><i class="fa fa-linkedin"></i
+                ></a>
+                <a
+                  class="btn btn-social-icon btn-twitter"
+                  href="http://twitter.com/"
+                  ><i class="fa fa-twitter"></i
+                ></a>
+                <a
+                  class="btn btn-social-icon btn-google"
+                  href="http://youtube.com/"
+                  ><i class="fa fa-youtube"></i
+                ></a>
+                <a class="btn btn-social-icon" href="mailto:"
+                  ><i class="fa fa-envelope-o"></i
+                ></a>
+              </div>
+            </div>
           </div>
-          <div class="col-7 col-sm-5">
-            <h5>Our Address</h5>
-            <address>
-              121, Clear Water Bay Road<br />
-              Clear Water Bay, Kowloon<br />
-              HONG KONG<br />
-              <i class="fa fa-phone fa-lg"></i>: +852 1234 5678<br />
-              <i class="fa fa-fax fa-lg"></i>: +852 8765 4321<br />
-              <i class="fa fa-envelope fa-lg"></i>:
-              <a href="mailto:confusion@food.net">confusion@food.net</a>
-            </address>
-          </div>
-          <div class="col-12 col-sm-4 align-self-center">
-            <div class="text-center">
-              <a
-                class="btn btn-social-icon btn-google"
-                href="http://google.com/+"
-                ><i class="fa fa-google-plus"></i
-              ></a>
-              <a
-                class="btn btn-social-icon btn-facebook"
-                href="http://www.facebook.com/profile.php?id="
-                ><i class="fa fa-facebook"></i
-              ></a>
-              <a
-                class="btn btn-social-icon btn-linkedin"
-                href="http://www.linkedin.com/in/"
-                ><i class="fa fa-linkedin"></i
-              ></a>
-              <a
-                class="btn btn-social-icon btn-twitter"
-                href="http://twitter.com/"
-                ><i class="fa fa-twitter"></i
-              ></a>
-              <a
-                class="btn btn-social-icon btn-google"
-                href="http://youtube.com/"
-                ><i class="fa fa-youtube"></i
-              ></a>
-              <a class="btn btn-social-icon" href="mailto:"
-                ><i class="fa fa-envelope-o"></i
-              ></a>
+          <div class="row justify-content-center">
+            <div class="col-auto">
+              <p>© Copyright 2018 Ristorante Con Fusion</p>
             </div>
           </div>
         </div>
-        <div class="row justify-content-center">
-          <div class="col-auto">
-            <p>© Copyright 2018 Ristorante Con Fusion</p>
-          </div>
-        </div>
-      </div>
-    </footer>
-    <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
-    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
-    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
-    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+      </footer>
+      <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+      <script
+        src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"
+      ></script>
+      <script
+        src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"
+      ></script>
+      <script
+        src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"
+      ></script>
+    </div>
   </body>
 </html>
