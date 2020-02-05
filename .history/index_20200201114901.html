@@ -8,14 +8,15 @@
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
+
     <!-- Bootstrap CSS -->
+
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
       integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="css/bootstrap-social.css" />
     <link
       rel="stylesheet"
       href="node_modules/font-awesome/css/font-awesome.min.css"
@@ -29,7 +30,7 @@
   </head>
 
   <body>
-    <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
+    <nav class="navbar navbar-dark navbar-expand-sm  fixed-top">
       <div class="container">
         <button
           class="navbar-toggler"
@@ -39,32 +40,28 @@
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <a class="navbar-brand mr-auto" href="#"
-          ><img
-            src="img/logo.png"
-            alt="Ristorante Con Fusion"
-            height="30"
-            width="41"
+        <a href="#" class="navbar-brand mr-auto"
+          ><img src="img/logo.png" height="30" width="41" alt=""
         /></a>
         <div class="collapse navbar-collapse" id="Navbar">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="#"
+              <a href="#" class="nav-link"
                 ><span class="fa fa-home fa-lg"></span> Home</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="./about-us.html"
+              <a href="/about-us.html" class="nav-link"
                 ><span class="fa fa-info fa-lg"></span> About</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#"
+              <a href="#" class="nav-link"
                 ><span class="fa fa-list fa-lg"></span> Menu</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="./contactus.html"
+              <a href="/contactus.html" class="nav-link"
                 ><span class="fa fa-address-card fa-lg"></span> Contact</a
               >
             </li>
@@ -75,7 +72,7 @@
     <header class="jumbotron">
       <div class="container">
         <div class="row row-header">
-          <div class="col-12 col-sm-6 col-md-6">
+          <div class="col-12 col-sm-6">
             <h1>Ristorante con Fusion</h1>
             <p>
               We take inspiration from the World's best cuisines, and create a
@@ -83,22 +80,8 @@
               your culinary senses!
             </p>
           </div>
-          <div class="col-12 col-sm-3 col-md-3 align-self-center">
-            <img
-              src="img/logo.png"
-              width="160"
-              alt="Ristorante con Fusion"
-              class="img-fluid"
-            />
-          </div>
-          <div class="col-12 col-sm-3 col-md-3 align-self-center">
-            <a
-              type="button"
-              href="#reserve_form"
-              class="btn btn-primary bg-warning border-warning"
-              style="width: 100%"
-              >Reserve Table</a
-            >
+          <div class="col-12 col-sm align-self-center">
+            <img src="img/logo.png" alt="Ristorante logo" class="img-fluid" />
           </div>
         </div>
       </div>
@@ -181,137 +164,6 @@
                 world, he specializes in creating mouthwatering Indo-Italian
                 fusion experiences.
               </p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="row row-content align-items-center justify-content-center">
-        <div class="col-md-8 col-xl-8 col-sm">
-          <div class="card">
-            <h3 class="card-header bg-warning text-white">Reserve a Table</h3>
-            <div class="card-body">
-              <form id="reserve_form">
-                <div class="form-group row">
-                  <label
-                    id="number_guests_label"
-                    class="col-md-3 col-sm-12"
-                    for="number_guests_radiogroup"
-                    >Number of Ghests</label
-                  >
-                  <div
-                    id="number_guests_radiogroup"
-                    class="col-md-9"
-                    aria-labelledby="number_guests_label"
-                    role="radiogroup"
-                  >
-                    <div class="form-check form-check-inline">
-                      <input
-                        class="form-check-input"
-                        type="radio"
-                        name="inlineRadioOptions"
-                        id="inlineRadio1"
-                        value="1"
-                      />
-                      <label class="form-check-label" for="inlineRadio1"
-                        >1</label
-                      >
-                    </div>
-                    <div class="form-check form-check-inline">
-                      <input
-                        class="form-check-input"
-                        type="radio"
-                        name="inlineRadioOptions"
-                        id="inlineRadio2"
-                        value="2"
-                      />
-                      <label class="form-check-label" for="inlineRadio2"
-                        >2</label
-                      >
-                    </div>
-                    <div class="form-check form-check-inline">
-                      <input
-                        class="form-check-input"
-                        type="radio"
-                        name="inlineRadioOptions"
-                        id="inlineRadio3"
-                        value="3"
-                      />
-                      <label class="form-check-label" for="inlineRadio3"
-                        >3</label
-                      >
-                    </div>
-                    <div class="form-check form-check-inline">
-                      <input
-                        class="form-check-input"
-                        type="radio"
-                        name="inlineRadioOptions"
-                        id="inlineRadio4"
-                        value="4"
-                      />
-                      <label class="form-check-label" for="inlineRadio4"
-                        >4</label
-                      >
-                    </div>
-                    <div class="form-check form-check-inline">
-                      <input
-                        class="form-check-input"
-                        type="radio"
-                        name="inlineRadioOptions"
-                        id="inlineRadio5"
-                        value="5"
-                      />
-                      <label class="form-check-label" for="inlineRadio5"
-                        >5</label
-                      >
-                    </div>
-                    <div class="form-check form-check-inline">
-                      <input
-                        class="form-check-input"
-                        type="radio"
-                        name="inlineRadioOptions"
-                        id="inlineRadio6"
-                        value="6"
-                      />
-                      <label class="form-check-label" for="inlineRadio6"
-                        >6</label
-                      >
-                    </div>
-                  </div>
-                </div>
-
-                <div class="form-group row">
-                  <label for="date" class="col-md-3 col-sm-12 col-form-label"
-                    >Date and Time</label
-                  >
-                  <label style="display:none" for="time"></label>
-                  <div class="col-md-3">
-                    <input
-                      type="text"
-                      class="form-control"
-                      id="date"
-                      name="date"
-                      placeholder="Date"
-                    />
-                  </div>
-                  <div class="col-md-3">
-                    <input
-                      type="text"
-                      class="form-control"
-                      id="time"
-                      name="time"
-                      placeholder="Time"
-                    />
-                  </div>
-                </div>
-
-                <div class="form-group row">
-                  <div class="offset-md-3 col-md-10">
-                    <button type="submit" class="btn btn-primary">
-                      Reserve
-                    </button>
-                  </div>
-                </div>
-              </form>
             </div>
           </div>
         </div>

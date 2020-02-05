@@ -9,8 +9,8 @@ body {
 
 .tab-content {
   border-left: 1px solid #ce6be2;
-  border-right: 1px solid #ce6be2;
-  border-bottom: 1px solid #ce6be2;
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
   padding: 10px;
 }
 

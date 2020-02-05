@@ -7,13 +7,6 @@ body {
   background-color: #512da8;
 }
 
-.tab-content {
-  border-left: 1px solid #ce6be2;
-  border-right: 1px solid #ce6be2;
-  border-bottom: 1px solid #ce6be2;
-  padding: 10px;
-}
-
 .row-header {
   margin: 0px auto;
   padding: 0px auto;
